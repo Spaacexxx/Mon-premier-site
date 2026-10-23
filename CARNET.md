@@ -163,7 +163,7 @@
 
 3. Dans l'Access log, retrouvez une requête qui a reçu un code `404`. Quelle page était demandée ?
 
-   > _Ma réponse :_ Je n'ai pas accès à mon Access log, donc je ne peux pas voir la requête exacte. Mais très souvent, la page demandée en 404 est `/favicon.ico`, l'icône de l'onglet que le navigateur réclame automatiquement et que je n'ai pas créée.
+   > _Ma réponse :_ La page demandée était `/favicon.ico`, l'icône de l'onglet que le navigateur réclame automatiquement et que je n'ai pas créée.
 
 4. Après cet exercice, que pensez-vous de la notion de « navigation anonyme » ?
 
