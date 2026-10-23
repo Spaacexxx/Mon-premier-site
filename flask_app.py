@@ -26,7 +26,8 @@ def accueil():
 # ---------------------------------------------------------------
 @app.get("/presentation")
 def presentation():
-    return render_template("presentation.html", prenom="Esteban", nom="Pinel")
+    return render_template("presentation.html", prenom="Léa", nom="Martin")
+
 @app.get("/loisir")
 def loisir():
     return "Je m'appelle Esteban et je fais du piano et du judo."
