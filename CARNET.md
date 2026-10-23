@@ -59,11 +59,11 @@
 
 1. Pourquoi est-ce une bonne idée de séparer le code Python et le HTML ? (Pensez à une équipe avec un développeur et un graphiste.)
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Parce que chacun peut travailler sur son propre fichier sans gêner l’autre : le développeur s’occupe du code Python (la logique), et le graphiste modifie le HTML (l’apparence) sans avoir besoin de comprendre ni de risquer de casser le code.
 
 2. Les `{{ prenom }}` sont-ils remplacés par le serveur ou par le navigateur ? Comment l'avez-vous vérifié ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Ils sont remplacés par le serveur : Flask (avec Jinja2) remplit les {{ prenom }} avant d’envoyer la page. Je l’ai vérifié en affichant le code source de la page dans le navigateur (clic droit, « Afficher le code source de la page ») : on y voit directement le prénom à la place des {{ }}, ce qui prouve que le navigateur a reçu la page déjà remplie.
 
 ---
 
