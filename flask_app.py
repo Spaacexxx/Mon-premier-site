@@ -26,17 +26,7 @@ def accueil():
 # ---------------------------------------------------------------
 @app.get("/presentation")
 def presentation():
-    return """
-    <h1>Esteban Nelpi</h1>
-    <p>Je suis étudiante en <strong>première année d'informatique</strong>.</p>
-    <h2>Ce que j'aime</h2>
-    <ul>
-        <li>Les jeux vidéo</li>
-        <li>La musique</li>
-        <li>Le code (bientôt !)</li>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width="100">
-    </ul>
-    """
+    return render_template("presentation.html", prenom="Esteban", nom="Pinel")
 @app.get("/loisir")
 def loisir():
     return "Je m'appelle Esteban et je fais du piano et du judo."
